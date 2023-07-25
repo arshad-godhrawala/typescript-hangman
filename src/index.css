@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.keyboard-button.active{
+    background: rgb(59 130 246);
+    color: white;
+}
+
+.keyboard-button.inactive{
+    opacity: 0.3;
+}
+
+.keyboard-button:hover:not(:disabled),
+.keyboard-button:focus:not(:disabled){
+    background: rgb(59 130 246);
+    color: white;
+}
